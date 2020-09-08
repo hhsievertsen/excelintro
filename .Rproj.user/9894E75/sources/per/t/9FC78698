@@ -9,7 +9,10 @@
     "created": 1599568461912.0,
     "source_on_save": false,
     "relative_order": 5,
-    "properties": {},
+    "properties": {
+        "cursorPosition": "15,158",
+        "scrollLine": "0"
+    },
     "folds": "",
     "lastKnownWriteTime": 1599565323,
     "encoding": "UTF-8",
