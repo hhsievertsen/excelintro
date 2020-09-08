@@ -1,0 +1,8 @@
+# Further resources
+
+* Alexander, Michael, Richard Kusleika, and John Walkenbach. "Excel 2019 Bible". John Wiley & Sons, 2018. Available online through the University of Bristol students [here](https://bris.on.worldcat.org/external-search?queryString=excel%20bible&clusterResults=on&stickyFacetsChecked=on#/oclc/1054245932).
+
+
+* [Microsoft Excel for Windows training](https://support.microsoft.com/en-ie/office/excel-for-windows-training-9bc05390-e94c-46af-a5b3-d7c22f6990bb)
+
+* [Excel 2016 for Mac Help](https://support.microsoft.com/en-us/office/excel-2016-for-mac-help-2010f16b-aec0-4da7-b381-9cc1b9b47745?wt.mc_id=otc_excel)

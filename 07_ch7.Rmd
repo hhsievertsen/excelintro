@@ -1,0 +1,10 @@
+# Getting tables and charts into Word
+
+## Inserting a chart in Microsoft Word
+
+
+![](./graphics/word/chart_word.gif)
+
+## Inserting a table in Microsoft Word
+
+![](./graphics/word/tab_word.gif)

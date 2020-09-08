@@ -1,0 +1,13 @@
+# Handling large datasets
+
+## Filtering tables
+
+We can use the filter function to filter the rows we are interested in. This is especially useful if our dataset contains many rows.
+
+![](./graphics/filter/filterwalk.gif)
+
+## Pivot tables
+
+If our dataset follows the tidy data principles we can use the Pivot table function in Microsoft Excel to easily restructure the data and calculate aggregate statistics as shown below. 
+
+![](./graphics/pivot/pivowalk.gif)
