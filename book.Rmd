@@ -18,7 +18,7 @@ tags: [Tutorial, Data, Excel]
 Welcome to this introduction to Microsoft Excel written for Economics students at the University of Bristol. The goal of the guide is help you  get access to Microsoft Excel and get started working with Microsoft Excel. Most of the topics covered are also applicable for alternative software solutions such as [LibreOffice](https://www.libreoffice.org/), [OpenOffice](https://www.openoffice.org/), and [Google Sheets](https://docs.google.com/spreadsheets/). 
 
 
-Please let me know if you find mistakes, find a section unclear, have suggestions for improvements, or if you have request for further topics to include. You can contact me on h.h.sievertsen@bristol.ac.uk.
+Please let me know if you find mistakes, find a section unclear, have suggestions for improvements, or if you have suggestions for  topics to include. You can contact me on h.h.sievertsen@bristol.ac.uk.
 
 Best wishes,
 Hans 
