@@ -416,9 +416,9 @@
 <div id="numerical-values-on-the-horisontal-axis" class="section level4 unnumbered" number="">
 <h4>Numerical values on the horisontal axis</h4>
 <p>You don’t always make brilliant decisions. One example is my decision not to include Kevin de Bruyne in my Fantasy Premier League Team in the season 2019/20. Another example is Microsoft’s decision to treat the horisontal axis in a line chart as categorical. I do not understand that because it is meaningless to connect values with a line that are categorical. But that is what they do!</p>
-<p>What is the problem with treating the horisontal axis as categorical? The problem is that the numerical values are not given any importance by Microsoft Excel when generating the chart. Take a look at the chart below. The first value on the horisontal axis is 2000. The second value is 2006. The third value is 2007. The distance between 2000 and 2006 is the same as the distance from 2006 and 2007. That is misleading and not what we want. That is because Microsoft Excel ignores that 2000 is actually a number. It jus treats it as text. What can we do to solve this issue?</p>
+<p>What is the problem with treating the horisontal axis as categorical? The problem is that the numerical values are not given any importance by Microsoft Excel when generating the chart. Take a look at the chart below. The first value on the horisontal axis is 2000. The second value is 2006. The third value is 2007. The distance between 2000 and 2006 is the same as the distance from 2006 and 2007. That is misleading and not what we want. That is because Microsoft Excel ignores that 2000 is actually a number. It just treats it as text. What can we do to solve this issue?</p>
 <div class="figure" style="text-align: center">
-<img src="graphics/advchart/fig5.png" alt=" " width="90%" />
+<img src="graphics/advchart/fig7.png" alt=" " width="90%" />
 <p class="caption">
 </p>
 </div>
@@ -511,7 +511,7 @@
 </div>
 <div id="inserting-a-text-box" class="section level4 unnumbered" number="">
 <h4>Inserting a text box</h4>
-<p>We an insert a text box in our chart (and other shapes), for example to include a note about value imputation and data sources. Simply select the “Insert” tab and then select Illustrations and Shapes. It is important that the chart canvas is selected when selecting this menu.</p>
+<p>We can insert a text box in our chart (and other shapes), for example to include a note about value imputation and data sources. Simply select the “Insert” tab and then select Illustrations and Shapes. It is important that the chart canvas is selected when selecting this menu.</p>
 <div class="figure" style="text-align: center">
 <img src="graphics/advchart/fig24.png" alt=" " width="90%" />
 <p class="caption">
@@ -582,6 +582,20 @@ gitbook.start({
 });
 </script>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 </body>
 
 </html>

@@ -197,7 +197,7 @@ Sometimes you might see cell content looking like the cells in column A below. T
 </div>
 <div id="ref" class="section level2" number="6.4">
 <h2><span class="header-section-number">6.4</span> #REF!</h2>
-<p>The #REF! message shown in cell D2 below appears if the cell refers to a cells that doesn’t exist (anymore). This often happens if you moved or deleted cells, but forgot that other cells referred to these cells</p>
+<p>The #REF! message shown in cell D2 below appears if the cell refers to cells that don’t exist (anymore). This often happens if you moved or deleted cells, but forgot that other cells refer to these cells</p>
 <div class="figure" style="text-align: center">
 <img src="graphics/errorwarn/fig9.png" alt=" " width="90%" />
 <p class="caption">
@@ -283,6 +283,20 @@ gitbook.start({
 });
 </script>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 </body>
 
 </html>

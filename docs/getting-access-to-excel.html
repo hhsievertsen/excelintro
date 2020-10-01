@@ -143,6 +143,7 @@
 <div id="video-guide" class="section level4 unnumbered" number="">
 <h4>Video guide</h4>
 <p>Below is a video guide (without sound) on installing Microsoft Excel. You can skip this video if you prefer following the step-by-step guide below.</p>
+Note: You can skip the section from 1:30 to 5:40 where Office is installed.
 <div align="center">
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/VtbghPs1O1s" frameborder="0" allowfullscreen>
 </iframe></p>
@@ -583,6 +584,20 @@ gitbook.start({
 });
 </script>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 </body>
 
 </html>
