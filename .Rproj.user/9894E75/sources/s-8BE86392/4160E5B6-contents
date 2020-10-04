@@ -1,0 +1,117 @@
+---
+output:
+  word_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+#  Accessing Stata through the University of Bristol Windows Virtual Desktop
+
+The University of Bristol offers you to access a university computer remotely. Follow the steps below to log on. 
+
+## Step 1: Go to UoB IT support {-}
+
+Go to [www.bristol.ac.uk/students/support/it/](https://www.bristol.ac.uk/students/support/it/) using a browser like Google Chrome, Safari, or Microsoft Edge.
+
+```{r,  include=TRUE, fig.align="center", fig.cap=c(" "), out.width=350, fig.show='hold',echo=FALSE}
+knitr::include_graphics("./graphics/remote_access/fig_r1.png")
+```
+
+## Step 2: Locate the student remote desktop {-}
+
+Scroll to the bottom of the page and find the two (identical) links to the student remote desktop. Click on one of these links (or the link  [here](https://uob.sharepoint.com/sites/itservices/SitePages/student-remote-desktop.aspx)).
+
+```{r,  include=TRUE, fig.align="center", fig.cap=c(" "), out.width=350, fig.show='hold',echo=FALSE}
+knitr::include_graphics("./graphics/remote_access/fig_r2.png")
+```
+
+## Step 3: Enter your university e-mail address and follow the steps to log in (this process is similar to the process for installing Office, explained above). {-}
+```{r,  include=TRUE, fig.align="center", fig.cap=c(" "), out.width=350, fig.show='hold',echo=FALSE}
+knitr::include_graphics("./graphics/remote_access/fig_r4.png")
+```
+
+## Step 4: "Remote Access Solutions for Students and Teaching" {-}
+
+You should now be at the website called "Remote Access Solutions for Students and Teaching" 
+Click on **"Windows Virtual Desktop"** 
+
+```{r,  include=TRUE, fig.align="center", fig.cap=c(" "), out.width=350, fig.show='hold',echo=FALSE}
+knitr::include_graphics("./graphics/remote_access/r1.png")
+```
+
+## Step 5: Access a virtual remote desktop via the wew {-}
+
+Click on the link to log on to the virtual remote desktop. As you've already logged in to your UoB account above, you don't need to do it again here. 
+
+```{r,  include=TRUE, fig.align="center", fig.cap=c(" "), out.width=350, fig.show='hold',echo=FALSE}
+knitr::include_graphics("./graphics/remote_access/r2.png")
+```
+
+## Step 6: Open the virtual desktop {-}
+
+Now click on the "Open Access" Icon. 
+
+```{r,  include=TRUE, fig.align="center", fig.cap=c(" "), out.width=350, fig.show='hold',echo=FALSE}
+knitr::include_graphics("./graphics/remote_access/r4.png")
+```
+
+The browser will now open a remote desktop. While it is loading it should look as follows
+
+```{r,  include=TRUE, fig.align="center", fig.cap=c(" "), out.width=350, fig.show='hold',echo=FALSE}
+knitr::include_graphics("./graphics/remote_access/r3.png")
+```
+
+
+
+## Step 7: Enter your user name and password {-}
+
+Now enter your user name and password. Note depending on how you've logged on to the system, you might not be asked about this, 
+
+```{r,  include=TRUE, fig.align="center", fig.cap=c(" "), out.width=350, fig.show='hold',echo=FALSE}
+knitr::include_graphics("./graphics/remote_access/r5.png")
+```
+
+
+
+
+## Step 8: You are  logged in {-}
+
+You should now see Windows desktop within your bwowser 
+```{r,  include=TRUE, fig.align="center", fig.cap=c(" "), out.width=350, fig.show='hold',echo=FALSE}
+knitr::include_graphics("./graphics/remote_access/r6.png")
+```
+
+
+## Step 9: You can now use the remote computer {-}
+
+Click on the Windows icon in the lower left corner to open the menu. You can now use the software installed on the UoB desktop. 
+
+Select "Stata"
+```{r,  include=TRUE, fig.align="center", fig.cap=c(" "), out.width=350, fig.show='hold',echo=FALSE}
+knitr::include_graphics("./graphics/remote_access/r9.png")
+```
+
+It may take some time to load, but eventually you should see screen like the one below:
+
+```{r,  include=TRUE, fig.align="center", fig.cap=c(" "), out.width=350, fig.show='hold',echo=FALSE}
+knitr::include_graphics("./graphics/remote_access/r10.png")
+```
+
+
+##  Saving files remotely {-}
+
+Note that since you are working on a UoB computer, you cannot save and create files everywhere. For example, you cannot save files to the desktop. However, you can save files to your University of Bristol "OneDrive" account:
+
+```{r,  include=TRUE, fig.align="center", fig.cap=c(" "), out.width=350, fig.show='hold',echo=FALSE}
+knitr::include_graphics("./graphics/remote_access/r8.png")
+```
+
+
+```{r,  include=TRUE, fig.align="center", fig.cap=c(" "), out.width=350, fig.show='hold',echo=FALSE}
+knitr::include_graphics("./graphics/remote_access/r9.png")
+```
+
+
+You can also use Internet Explorer or Microsoft Edge within the Windows Virtual Desktop to browse the internet within the browser. If you want to work on a dataset from Eurostat within the  Windows Virtual Desktop the easiest way is to access the Eurostat website within the Windows Virtual Desktop and download the data to the virtual drive.

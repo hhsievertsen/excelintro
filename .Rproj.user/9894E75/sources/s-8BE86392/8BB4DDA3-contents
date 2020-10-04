@@ -91,7 +91,7 @@ knitr::include_graphics("./graphics/ch1/fig19.png")
 ```
 
 
-##  Student Remote Desktop
+##  Windows Virtual Desktop
 
 The University of Bristol offers you to access a university computer remotely. Follow the steps below to log on. 
 
@@ -116,108 +116,76 @@ knitr::include_graphics("./graphics/remote_access/fig_r2.png")
 knitr::include_graphics("./graphics/remote_access/fig_r4.png")
 ```
 
-#### Step 4: Student remote desktop website{-}
+#### Step 4: "Remote Access Solutions for Students and Teaching" {-}
 
-You should now be at the website for the student remote desktop. It should look like the below. You now have two options. A solution for fast internet connections and a solution for slow connections. Both should work fine. The site also includes details on using the student remote desktop for Mac users. 
-
-Click on one of the two blue boxes to download the shortcut for the remote desktop. 
+You should now be at the website called "Remote Access Solutions for Students and Teaching" 
+Click on **"Windows Virtual Desktop"** 
 
 ```{r,  include=TRUE, fig.align="center", fig.cap=c(" "), out.width="90%", fig.show='hold',echo=FALSE}
-knitr::include_graphics("./graphics/remote_access/fig_r5.png")
+knitr::include_graphics("./graphics/remote_access/r1.png")
 ```
 
-#### Step 5: Download the RDP file {-}
+#### Step 5: Access a virtual remote desktop via the wew {-}
 
-You will download a RDP file. An RDP file contains the information for a connection to a remote server. Click download if the file is not downloaded automatically. 
+Click on the link to log on to the virtual remote desktop. As you've already logged in to your UoB account above, you don't need to do it again here. 
 
 ```{r,  include=TRUE, fig.align="center", fig.cap=c(" "), out.width="90%", fig.show='hold',echo=FALSE}
-knitr::include_graphics("./graphics/remote_access/fig_r6.png")
+knitr::include_graphics("./graphics/remote_access/r2.png")
 ```
 
-#### Step 6: Open the downloaded file {-}
+#### Step 6: Open the virtual desktop {-}
 
-Click on the downloaded file (or double click, depending on the system) with the mouse. Windows includes a program to handle the RDP files. This is not the case for Mac users (see step 4 above).
+Now click on the "Open Access" Icon. 
 
 ```{r,  include=TRUE, fig.align="center", fig.cap=c(" "), out.width="90%", fig.show='hold',echo=FALSE}
-knitr::include_graphics("./graphics/remote_access/fig_r7.png")
+knitr::include_graphics("./graphics/remote_access/r4.png")
 ```
 
-#### Step 7: Connect to the remote seriver {-}
-
-You will likely see a message like the one below. Click on Connect.
+The browser will now open a remote desktop. While it is loading it should look as follows
 
 ```{r,  include=TRUE, fig.align="center", fig.cap=c(" "), out.width="90%", fig.show='hold',echo=FALSE}
-knitr::include_graphics("./graphics/remote_access/fig_r8.png")
-```
-
-#### Step 8: Enter your university credentials {-}
-
-Enter your credentials again. Note that the program already knows that it should connect to the University of Bristol (that is seen by the Domain pointing to UoB). You therefore only have to enter the first part of the e-mail address until (and not including) the "@" (like in the example below).
-
-```{r,  include=TRUE, fig.align="center", fig.cap=c(" "), out.width="90%", fig.show='hold',echo=FALSE}
-knitr::include_graphics("./graphics/remote_access/fig_r9.png")
-```
-
-#### Step 9: Yet another box {-}
-
-You will likely also see a box like the one below. Click Yes".
-
-
-```{r,  include=TRUE, fig.align="center", fig.cap=c(" "), out.width="90%", fig.show='hold',echo=FALSE}
-knitr::include_graphics("./graphics/remote_access/fig_r10.png")
-```
-
-#### Step 10: Connecting {-}
-
-You should now be connecting to the remote desktop.
-
-```{r,  include=TRUE, fig.align="center", fig.cap=c(" "), out.width="90%", fig.show='hold',echo=FALSE}
-knitr::include_graphics("./graphics/remote_access/fig_r11.png")
-```
-
-#### Step 11: You have  arrived  - almost {-}
-
-You should now see a blue screen with some details about how the remote desktop work. Read the text and click "OK".
-
-```{r,  include=TRUE, fig.align="center", fig.cap=c(" "), out.width="90%", fig.show='hold',echo=FALSE}
-knitr::include_graphics("./graphics/remote_access/fig_r12.png")
-```
-
-#### Step 12: You have arrived.  {-}
-
-Congratulations. You have now arrived at a University of Bristol computer. Your screen should look like the below. You now basically opened another computer within your computer. You can use this computer just like any other computer.
-
-```{r,  include=TRUE, fig.align="center", fig.cap=c(" "), out.width="90%", fig.show='hold',echo=FALSE}
-knitr::include_graphics("./graphics/remote_access/fig_r14.png")
-```
-
-#### Step 13: The remote desktop bar {-}
-
-You use the blue bar at the top (see picture below) navigate back and forth between your own computer and the remote your computer. You can minimize the remote desktop by clicking the third icon from the right (the white line). Click on the cross to close the remote desktop. 
-
-```{r,  include=TRUE, fig.align="center", fig.cap=c(" "), out.width="90%", fig.show='hold',echo=FALSE}
-knitr::include_graphics("./graphics/remote_access/fig_r13.png")
-```
-
-#### Step 15: You can now use the remote computer {-}
-
-Click on the Windows icon in the lower left corner to open the menu. Type "Excel" to find Excel 2016 and click on the icon to start using Microsoft Excel. 
-
-```{r,  include=TRUE, fig.align="center", fig.cap=c(" "), out.width="90%", fig.show='hold',echo=FALSE}
-knitr::include_graphics("./graphics/remote_access/fig_r15.png")
-```
-
-#### Step 16: Saving files remotely {-}
-
-Note that since you are working on a UoB computer, you cannot save and create files everywhere. For example, you cannot save file sto the desktop. However, you can save files on the "O:" drive (see below) and you can also access your own local computer (see "C on IT..." under This PC on the left). However, saving and loading files on the local computer takes  a bit longer because you essentially have to download and upload the documents every time.
-
-Note that you also can use the browser within the remote desktop. You van therefore also log on to your email account and send and receive files on the remote desktop.
-
-```{r,  include=TRUE, fig.align="center", fig.cap=c(" "), out.width="90%", fig.show='hold',echo=FALSE}
-knitr::include_graphics("./graphics/remote_access/fig_r16.png")
+knitr::include_graphics("./graphics/remote_access/r3.png")
 ```
 
 
+
+#### Step 7: Enter your user name and password {-}
+
+Now enter your user name and password. Note depending on how you've logged on to the system, you might not be asked about this, 
+
+```{r,  include=TRUE, fig.align="center", fig.cap=c(" "), out.width="90%", fig.show='hold',echo=FALSE}
+knitr::include_graphics("./graphics/remote_access/r5.png")
+```
+
+
+
+
+#### Step 8: You are  logged in {-}
+
+You should now see Windows desktop within your bwowser 
+```{r,  include=TRUE, fig.align="center", fig.cap=c(" "), out.width="90%", fig.show='hold',echo=FALSE}
+knitr::include_graphics("./graphics/remote_access/r6.png")
+```
+
+
+#### Step 9: You can now use the remote computer {-}
+
+Click on the Windows icon in the lower left corner to open the menu. You can now use the software installed on the UoB desktop. 
+
+```{r,  include=TRUE, fig.align="center", fig.cap=c(" "), out.width="90%", fig.show='hold',echo=FALSE}
+knitr::include_graphics("./graphics/remote_access/r7.png")
+```
+
+####  Saving files remotely {-}
+
+Note that since you are working on a UoB computer, you cannot save and create files everywhere. For example, you cannot save files to the desktop. However, you can save files to your University of Bristol "OneDrive" account:
+
+```{r,  include=TRUE, fig.align="center", fig.cap=c(" "), out.width="90%", fig.show='hold',echo=FALSE}
+knitr::include_graphics("./graphics/remote_access/r8.png")
+```
+
+
+You can also use Internet Explorer or Microsoft Edge within the Windows Virtual Desktop to browse the internet within the browser. If you want to work on a dataset from Eurostat within the  Windows Virtual Desktop the easiest way is to access the Eurostat website within the Windows Virtual Desktop and download the data to the virtual drive.
 
 ## Microsoft Excel in the cloud  
 
