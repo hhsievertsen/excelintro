@@ -1640,6 +1640,13 @@ If our dataset follows the tidy data principles we can use the Pivot table funct
 
 ![](./graphics/pivot/pivowalk.gif)
 
+
+## Text to columns
+
+Sometimes Microsoft Excel will not recognize the data structure. This could for example happen if we imported a dataset stored in a different format like csv. In that case we explicitly tell Excel how to organize the data with the "Text to columns" function as shown below
+
+![](./graphics/texttocolumns.gif)
+
 <!--chapter:end:06_ch6.Rmd-->
 
 # Getting tables and charts into Word

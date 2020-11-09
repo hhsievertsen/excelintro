@@ -11,3 +11,10 @@ We can use the filter function to filter the rows we are interested in. This is 
 If our dataset follows the tidy data principles we can use the Pivot table function in Microsoft Excel to easily restructure the data and calculate aggregate statistics as shown below. 
 
 ![](./graphics/pivot/pivowalk.gif)
+
+
+## Text to columns
+
+Sometimes Microsoft Excel will not recognize the data structure. This could for example happen if we imported a dataset stored in a different format like csv. In that case we explicitly tell Excel how to organize the data with the "Text to columns" function as shown below
+
+![](./graphics/texttocolumns.gif)
