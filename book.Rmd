@@ -1215,7 +1215,12 @@ knitr::include_graphics("./graphics/advchart/fig25.png")
 
 
 
+## Combing chart types
 
+We can combine several chart types in one chart as shown below
+
+
+![](./graphics/Combinecharts.gif)
 
 
 
