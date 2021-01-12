@@ -951,7 +951,7 @@ knitr::include_graphics("./graphics/chart/fig30.png")
 ```
 
 
-####   A bar chart {-}
+##    A bar chart 
 
 To create a bar chart we follow the same steps as for the line chart, we just select the bar chart icon above the line chart icon (see below). The data selection procedure is just like for the line chart. 
 
@@ -961,7 +961,7 @@ knitr::include_graphics("./graphics/chart/fig31.png")
 
 
 
-####   An area chart {-}
+##    An area chart 
 
 We can find area charts within the line chart menu as illustrated below. The data selection procedure is just like for the line chart. 
 
@@ -971,7 +971,7 @@ knitr::include_graphics("./graphics/chart/fig32.png")
 
 
 
-####   A stacked area chart {-}
+##   A stacked area chart
 
 A stacked area chart puts the series on top of each other. For the example below we have two series that we put on top of each other. The stacked area chart is just to the right of the line chart. The data selection procedure is just like for the line chart. 
 
@@ -981,7 +981,7 @@ knitr::include_graphics("./graphics/chart/fig33.png")
 
 
 
-####   An unstacked area chart with two series {-}
+##   An unstacked area chart with two series
 
 If we do not stack our series and create an area chart with two series, one series might cover the other series. It is therefore important that the **ordering** of the series is as desired. We can change the order in the "Select data" menu by highlighting a series in the left panel (just click on it) and clicking on the small arrows (see below) to change the ordering.
 
@@ -992,7 +992,7 @@ knitr::include_graphics("./graphics/chart/fig34.png")
 
 
 
-####   A scatter plot {-}
+##   A scatter plot 
 
 Scatter plots work slightly differently than line charts, bar charts, and area charts in Microsoft Excel. Let's try it. You will typically find the scatter plot icon in the lower row of the chart area in the ribbon, as shown below. 
 
@@ -1024,6 +1024,14 @@ knitr::include_graphics("./graphics/chart/fig38.png")
 ```
 
 In many cases we don't need to worry about this difference, however, it gives us more flexibility, because we can select the series independently. 
+
+
+
+##   A pyramid chart 
+
+Pyramid charts are often used to show the composition of the population by age and gender. In practice we can create a pyramid chart as a bar chart. We then multiply the values for one gender by -1 and later remove the "-" from the x axis, as shown below. 
+
+![](./graphics/pyramidchart.gif)
 
 
 
@@ -1215,7 +1223,7 @@ knitr::include_graphics("./graphics/advchart/fig25.png")
 
 
 
-## Combing chart types
+##  Combing chart types
 
 We can combine several chart types in one chart as shown below
 

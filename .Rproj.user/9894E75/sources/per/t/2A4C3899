@@ -3,22 +3,22 @@
     "path": "C:/Github/excelintro/03_ch3.Rmd",
     "project_path": "03_ch3.Rmd",
     "type": "r_markdown",
-    "hash": "3524709993",
+    "hash": "3066627352",
     "contents": "",
     "dirty": false,
     "created": 1601540809021.0,
     "source_on_save": false,
     "relative_order": 2,
     "properties": {
-        "cursorPosition": "17,0",
+        "cursorPosition": "4,0",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1601541441,
+    "lastKnownWriteTime": 1610448098,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1601541441790,
+    "last_content_update": 1610448098813,
     "read_only": false,
     "read_only_alternatives": []
 }
