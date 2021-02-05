@@ -1,24 +1,24 @@
 {
-    "id": "697B06C8",
-    "path": "C:/Github/EconDataBook/12_data_description.Rmd",
-    "project_path": null,
+    "id": "B4C828CC",
+    "path": "C:/Github/excelintro/index.Rmd",
+    "project_path": "index.Rmd",
     "type": "r_markdown",
-    "hash": "0",
+    "hash": "3430537490",
     "contents": "",
     "dirty": false,
-    "created": 1601809540806.0,
+    "created": 1601542050890.0,
     "source_on_save": false,
-    "relative_order": 9,
+    "relative_order": 8,
     "properties": {
-        "cursorPosition": "0,17",
+        "cursorPosition": "20,47",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1601809548,
+    "lastKnownWriteTime": 1601549052,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1601809548201,
+    "last_content_update": 1601549052889,
     "read_only": false,
     "read_only_alternatives": []
 }

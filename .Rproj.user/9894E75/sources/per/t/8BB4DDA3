@@ -1,24 +1,24 @@
 {
-    "id": "C483E1F2",
-    "path": "C:/Github/excelintro/06_ch6.Rmd",
-    "project_path": "06_ch6.Rmd",
+    "id": "8BB4DDA3",
+    "path": "C:/Github/excelintro/01_ch1.Rmd",
+    "project_path": "01_ch1.Rmd",
     "type": "r_markdown",
-    "hash": "0",
+    "hash": "1630566440",
     "contents": "",
     "dirty": false,
-    "created": 1601542016544.0,
+    "created": 1601540748058.0,
     "source_on_save": false,
-    "relative_order": 7,
+    "relative_order": 1,
     "properties": {
-        "cursorPosition": "17,19",
+        "cursorPosition": "92,0",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1604911661,
+    "lastKnownWriteTime": 1601797889,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1604911661987,
+    "last_content_update": 1601797889576,
     "read_only": false,
     "read_only_alternatives": []
 }
