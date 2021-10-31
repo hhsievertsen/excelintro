@@ -502,6 +502,10 @@ knitr::include_graphics("./graphics/advchart/fig25.png")
 We can combine several chart types in one chart as shown below
 
 
+Windows
 ![](./graphics/Combinecharts.gif)
 
 
+Mac
+
+![](./graphics/excelcombomac.gif)

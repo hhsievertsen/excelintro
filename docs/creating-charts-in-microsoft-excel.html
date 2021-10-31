@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title> 4 Creating Charts in Microsoft Excel | Excel for UoB students</title>
   <meta name="description" content=" 4 Creating Charts in Microsoft Excel | Excel for UoB students" />
-  <meta name="generator" content="bookdown 0.19 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
   <meta property="og:title" content=" 4 Creating Charts in Microsoft Excel | Excel for UoB students" />
   <meta property="og:type" content="book" />
@@ -32,8 +32,9 @@
   
 <link rel="prev" href="getting-started-with-microsoft-excel.html"/>
 <link rel="next" href="designing-tables-in-microsoft-excel.html"/>
-<script src="libs/header-attrs-2.2/header-attrs.js"></script>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -49,6 +50,8 @@
 
 
 
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
 
 
 
@@ -284,7 +287,7 @@
 <p class="caption">
 </p>
 </div>
-<div id="what-if-the-canvas-is-not-blank" class="section level4 unnumbered" number="">
+<div id="what-if-the-canvas-is-not-blank" class="section level4 unnumbered">
 <h4>What if the canvas is not blank?</h4>
 <p>If we (accidently) selected some of the data before clicking on “Insert line chart” as in the example below…</p>
 <div class="figure" style="text-align: center">
@@ -305,7 +308,7 @@
 </p>
 </div>
 </div>
-<div id="getting-microsoft-excel-to-make-the-right-guess" class="section level4 unnumbered" number="">
+<div id="getting-microsoft-excel-to-make-the-right-guess" class="section level4 unnumbered">
 <h4>Getting Microsoft Excel to make the right guess</h4>
 <p>How could we help Microsoft Excel to make the right guess? That is simple. Remove the header for the Year series. And follow the same steps as below. If the data structure is like below, we can do all we did above in one quick step by selecting all the data and clicking insert line chart.</p>
 <div class="figure" style="text-align: center">
@@ -392,7 +395,7 @@
 </div>
 <div id="polishing-the-chart" class="section level2" number="4.8">
 <h2><span class="header-section-number">4.8</span> Polishing the chart</h2>
-<div id="missing-data-points" class="section level4 unnumbered" number="">
+<div id="missing-data-points" class="section level4 unnumbered">
 <h4>Missing data points</h4>
 <p>Real-World data is often incomplete. Like in the example below, we don’t observe any values for Value A in the years 2007 and 2008. This will lead to a gap in the line chart. This is typically fine and in line with what the data shows. However, in some cases we might want to make a guess of what these missing values could be. Our guess is that we can draw a straight line between the last observed value and the next observed value. This is called linear interpolation.</p>
 <div class="figure" style="text-align: center">
@@ -425,7 +428,7 @@
 </p>
 </div>
 </div>
-<div id="numerical-values-on-the-horisontal-axis" class="section level4 unnumbered" number="">
+<div id="numerical-values-on-the-horisontal-axis" class="section level4 unnumbered">
 <h4>Numerical values on the horisontal axis</h4>
 <p>You don’t always make brilliant decisions. One example is my decision not to include Kevin de Bruyne in my Fantasy Premier League Team in the season 2019/20. Another example is Microsoft’s decision to treat the horisontal axis in a line chart as categorical. I do not understand that because it is meaningless to connect values with a line that are categorical. But that is what they do!</p>
 <p>What is the problem with treating the horisontal axis as categorical? The problem is that the numerical values are not given any importance by Microsoft Excel when generating the chart. Take a look at the chart below. The first value on the horisontal axis is 2000. The second value is 2006. The third value is 2007. The distance between 2000 and 2006 is the same as the distance from 2006 and 2007. That is misleading and not what we want. That is because Microsoft Excel ignores that 2000 is actually a number. It just treats it as text. What can we do to solve this issue?</p>
@@ -455,7 +458,7 @@
 </div>
 <p>Voila! It works! The distance on the horisontal axis is now consistent with the values shown.</p>
 </div>
-<div id="formating-axes" class="section level4 unnumbered" number="">
+<div id="formating-axes" class="section level4 unnumbered">
 <h4>Formating axes</h4>
 <p>We can modify the axes scales and appearance. To change an axis, simply click on the axis (for example on one of the tick labels). If you’ve selected the “Format” tab, the ribbon will tell you what you’ve selected in the upper left corner (in the example below “Horizontal (Value) Axis”). We can then click “Format Selection” (or right-click on the axis and select “Format Axis”).</p>
 <div class="figure" style="text-align: center">
@@ -494,7 +497,7 @@
 </p>
 </div>
 </div>
-<div id="formating-other-chart-elements" class="section level4 unnumbered" number="">
+<div id="formating-other-chart-elements" class="section level4 unnumbered">
 <h4>Formating other chart elements</h4>
 <p>We can modify almost all chart elements. We simply select the element we want to change and click “Format Selection” in the ribbon (or right-click and click Format…). In the example below we’ve selected the grid lines. We can then change the appearance of these grid lines in the menu on the right.</p>
 <div class="figure" style="text-align: center">
@@ -503,7 +506,7 @@
 </p>
 </div>
 </div>
-<div id="adding-chart-elements" class="section level4 unnumbered" number="">
+<div id="adding-chart-elements" class="section level4 unnumbered">
 <h4>Adding chart elements</h4>
 <p>We can add chart elements in the Chart Design Tab by clicking Add Chart Element in the left-most part of the ribbon as shown below. we can also click on the big “+” symbol to the right of the chart.</p>
 <div class="figure" style="text-align: center">
@@ -512,7 +515,7 @@
 </p>
 </div>
 </div>
-<div id="moving-chart-elements" class="section level4 unnumbered" number="">
+<div id="moving-chart-elements" class="section level4 unnumbered">
 <h4>Moving chart elements</h4>
 <p>We can move chart elements by simply selecting and dragging them as shown for the legend below.</p>
 <div class="figure" style="text-align: center">
@@ -521,7 +524,7 @@
 </p>
 </div>
 </div>
-<div id="inserting-a-text-box" class="section level4 unnumbered" number="">
+<div id="inserting-a-text-box" class="section level4 unnumbered">
 <h4>Inserting a text box</h4>
 <p>We can insert a text box in our chart (and other shapes), for example to include a note about value imputation and data sources. Simply select the “Insert” tab and then select Illustrations and Shapes. It is important that the chart canvas is selected when selecting this menu.</p>
 <div class="figure" style="text-align: center">
@@ -539,7 +542,10 @@
 <div id="combing-chart-types" class="section level2" number="4.9">
 <h2><span class="header-section-number">4.9</span> Combing chart types</h2>
 <p>We can combine several chart types in one chart as shown below</p>
-<p><img src="graphics/Combinecharts.gif" /></p>
+<p>Windows
+<img src="graphics/Combinecharts.gif" /></p>
+<p>Mac</p>
+<p><img src="graphics/excelcombomac.gif" /></p>
 
 </div>
 </div>
@@ -553,7 +559,6 @@
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -572,6 +577,7 @@ gitbook.start({
 "weibo": false,
 "instapaper": false,
 "vk": false,
+"whatsapp": false,
 "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
@@ -592,6 +598,10 @@ gitbook.start({
 "text": null
 },
 "download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "subsection"
 }
@@ -599,20 +609,6 @@ gitbook.start({
 });
 </script>
 
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    var src = "true";
-    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
-    if (location.protocol !== "file:")
-      if (/^https?:/.test(src))
-        src = src.replace(/^https?:/, '');
-    script.src = src;
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
 </body>
 
 </html>
